@@ -1,0 +1,30 @@
+{
+    "navbar": {
+      "home": "Home",
+      "about": "About Me",
+      "projects": "My Projects",
+      "blog": "Blog"
+    },
+    "home": {
+      "title": "Welcome to my portfolio"
+    },
+    "buttons": {
+      "downloadCv": "Download CV"
+    },
+    "projects": {
+      "projectId": 1,
+      "title": "",
+      "technologies": "",
+      "description": "",
+      "repoLink": "",
+      "deployLink": ""
+    },
+    "aboutme": {
+      "experienceId": 1,
+      "title": "",
+      "description": "",
+      "period": "",
+      "enterprise": ""
+    }
+  }
+  

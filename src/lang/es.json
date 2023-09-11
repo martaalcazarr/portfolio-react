@@ -1,0 +1,39 @@
+{
+    "navbar": {
+      "home": "Inicio",
+      "about": "Sobre Mi",
+      "projects": "Mis Proyectos",
+      "blog": "Blog"
+    },
+    "home": {
+      "title": "Welcome to my portfolio"
+    },
+    "buttons": {
+      "downloadCv": "Descargar CV"
+    },
+    "projects": {
+      "projectId": 1,
+      "title": "",
+      "technologies": "",
+      "description": "",
+      "repoLink": "",
+      "deployLink": ""
+    },
+    "groupProjects": {
+        "projectId": 1,
+        "myRole": "",
+        "title": "",
+        "technologies": "",
+        "description": "",
+        "repoLink": "",
+        "deployLink": ""
+    },
+    "aboutme": {
+      "experienceId": 1,
+      "title": "",
+      "description": "",
+      "period": "",
+      "enterprise": ""
+    }
+  }
+  
