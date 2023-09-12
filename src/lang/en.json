@@ -6,7 +6,10 @@
       "blog": "Blog"
     },
     "home": {
-      "title": "Welcome to my portfolio"
+      "title": "Welcome to my portfolio",
+      "techStack": {
+        "" : ""
+      }
     },
     "buttons": {
       "downloadCv": "Download CV"
@@ -19,12 +22,35 @@
       "repoLink": "",
       "deployLink": ""
     },
+    "groupProjects": {
+        "projectId": 1,
+        "myRole": "",
+        "title": "",
+        "technologies": "",
+        "description": "",
+        "repoLink": "",
+        "deployLink": ""
+    },
     "aboutme": {
-      "experienceId": 1,
-      "title": "",
-      "description": "",
-      "period": "",
-      "enterprise": ""
+      "workExperiences": {
+        "experienceId": 1,
+        "title": "",
+        "description": "",
+        "period": "",
+        "enterprise": ""
+      },
+      "studies": {
+        "studyId": 1,
+        "title": "",
+        "period": "",
+        "enterprise": "",
+        "description": ""
+      },
+      "myDescription": ""
+    },
+    "contact":{
+      "yourmail": "",
+      "yourmessage": ""
     }
   }
   
