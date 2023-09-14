@@ -10,8 +10,9 @@ function App() {
   return (
     <LanguageProvider>
       <ThemeProvider theme={theme}>
+      <Navbar position="fixed"/>
      <Container>
-     <Navbar />
+    
      </Container>
      </ThemeProvider>
      
