@@ -40,7 +40,7 @@
         {
           "experienceId": 1,
           "title": "Backend Developer",
-          "description": "Backend Development for different projects with MERN stack",
+          "description": "Backend Development for different projects with MERN stack.",
           "period": "February 2023 - July 2023",
           "enterprise": "No Country"
         },
@@ -74,13 +74,29 @@
         }
       ],
       "studiestitle": "Formation",
-      "studies": {
+      "studies": [
+      {
         "studyId": 1,
         "title": "Multilingual tourist administrator and tourism degree",
         "period": "2014-2018",
         "enterprise": "University of Playa Ancha, Chile",
-        "description": "During my years in college, I learned how to speak fluently in English and French, to administrate any type of business (accountability, human resources, marketing). Also, I was elected as generation representative and president of my career, so I improved a lot my soft skills."
+        "description": "During my years in college, I learned how to speak fluently in English and French, and to administrate any type of business (accountability, human resources, marketing, project management). Also, I was elected as generation representative and president of my career, so I improved a lot my soft skills."
       },
+      {
+        "studyId": 2,
+        "title": "Multilingual tourist administrator and tourism degree",
+        "period": "2014-2018",
+        "enterprise": "University of Playa Ancha, Chile",
+        "description": "During my years in college, I learned how to speak fluently in English and French, and to administrate any type of business (accountability, human resources, marketing, project management). Also, I was elected as generation representative and president of my career, so I improved a lot my soft skills."
+      },
+      {
+        "studyId": 3,
+        "title": "Multilingual tourist administrator and tourism degree",
+        "period": "2014-2018",
+        "enterprise": "University of Playa Ancha, Chile",
+        "description": "During my years in college, I learned how to speak fluently in English and French, and to administrate any type of business (accountability, human resources, marketing, project management). Also, I was elected as generation representative and president of my career, so I improved a lot my soft skills."
+      }
+    ],
       "myDescription": "I'm a fullstack developer with knowledge in different areas like design, administration, and languages."
     },
     "contact":{

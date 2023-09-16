@@ -6,9 +6,10 @@ const About = () => {
 
   return (
     <Container>
-      <Typography variant="h2" gutterBottom>
-        Sobre Mí
+<Typography variant="h4" gutterBottom>
+      {languageData.aboutme.abouttitle}
       </Typography>
+      <Typography>{languageData.aboutme.myDescription}</Typography>
 
       <Typography variant="h4" gutterBottom>
       {languageData.aboutme.exptitle}
@@ -42,10 +43,7 @@ const About = () => {
         ))}
       </Grid>
 
-      <Typography variant="h4" gutterBottom>
-      {languageData.aboutme.abouttitle}
-      </Typography>
-      <Typography>{languageData.aboutme.myDescription}</Typography>
+      
     </Container>
   );
 }
