@@ -32,27 +32,76 @@
         "description": "",
         "repoLink": "",
         "deployLink": ""
-    },
-    "aboutme": {
-      "workExperiences": {
-        "experienceId": 1,
-        "title": "",
-        "description": "",
-        "period": "",
-        "enterprise": ""
       },
-      "studies": {
-        "studyId": 1,
-        "title": "",
-        "period": "",
-        "enterprise": "",
-        "description": ""
+      "aboutme": {
+        "abouttitle": "Sobre mí",
+        "exptitle": "Experiencia",
+        "workExperiences": [
+          {
+            "experienceId": 1,
+            "title": "Desarrollador Backend",
+            "description": "Desarrollo backend para diversos proyectos con el stack MERN.",
+            "period": "Febrero 2023 - Julio 2023",
+            "enterprise": "No Country"
+          },
+          {
+            "experienceId": 2,
+            "title": "A",
+            "description": "A",
+            "period": "A",
+            "enterprise": "A"
+          },
+          {
+            "experienceId": 3,
+            "title": "A",
+            "description": "A",
+            "period": "A",
+            "enterprise": "A"
+          },
+          {
+            "experienceId": 4,
+            "title": "A",
+            "description": "A",
+            "period": "A",
+            "enterprise": "A"
+          },
+          {
+            "experienceId": 5,
+            "title": "A",
+            "description": "A",
+            "period": "A",
+            "enterprise": "A"
+          }
+        ],
+        "studiestitle": "Formation",
+        "studies": [
+          {
+          "studyId": 1,
+          "title": "Administrador turístico multilingüe y licenciado en turismo",
+          "period": "2014-2018",
+          "enterprise": "Universidad de Playa Ancha, Chile",
+          "description": "Durante mis años en la universidad, aprendí a hablar inglés y francés de forma fluída, y a administar cualquier tipo de empresa (contabilidad, recursos humanos, marketing, gestión de proyectos). Además, fui electa como la representante de generación y presidenta de la carrera, lo cual mejoró mis habilidades blandas."
+        },
+        {
+          "studyId": 2,
+          "title": "Administrador turístico multilingüe y licenciado en turismo",
+          "period": "2014-2018",
+          "enterprise": "Universidad de Playa Ancha, Chile",
+          "description": "Durante mis años en la universidad, aprendí a hablar inglés y francés de forma fluída, y a administar cualquier tipo de empresa (contabilidad, recursos humanos, marketing, gestión de proyectos). Además, fui electa como la representante de generación y presidenta de la carrera, lo cual mejoró mis habilidades blandas."
+        },
+        {
+          "studyId": 3,
+          "title": "Administrador turístico multilingüe y licenciado en turismo",
+          "period": "2014-2018",
+          "enterprise": "Universidad de Playa Ancha, Chile",
+          "description": "Durante mis años en la universidad, aprendí a hablar inglés y francés de forma fluída, y a administar cualquier tipo de empresa (contabilidad, recursos humanos, marketing, gestión de proyectos). Además, fui electa como la representante de generación y presidenta de la carrera, lo cual mejoró mis habilidades blandas."
+        }
+      ],
+        "myDescription": "Soy una desarrolladora fullstack con conocimientos en diversas áreas como diseño, administración e idiomas."
       },
-      "myDescription": ""
-    },
-    "contact":{
-      "yourmail": "",
-      "yourmessage": ""
+      "contact":{
+        "yourmail": "",
+        "yourmessage": ""
+      }
     }
-  }
-  
+    
