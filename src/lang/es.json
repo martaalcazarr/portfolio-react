@@ -6,13 +6,15 @@
       "blog": "Blog"
     },
     "home": {
-      "title": "Welcome to my portfolio",
+      "title": "Hola, soy Marta Alcázar",
+      "subtitle": "Desarrolladora Fullstack",
       "techStack": {
         "": ""
       }
     },
     "buttons": {
-      "downloadCv": "Descargar CV"
+      "downloadCv": "Descargar CV",
+      "visitLn": "Visitar LinkedIn"
     },
     "projects": {
       "projectId": 1,

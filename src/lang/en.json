@@ -6,13 +6,15 @@
       "blog": "Blog"
     },
     "home": {
-      "title": "Welcome to my portfolio",
+      "title": "Hi, I'm Marta Alcazar",
+      "subtitle": "Fullstack Developer",
       "techStack": {
         "" : ""
       }
     },
     "buttons": {
-      "downloadCv": "Download CV"
+      "downloadCv": "Download CV",
+      "visitLn": "Visit LinkedIn"
     },
     "projects": {
       "projectId": 1,
@@ -32,21 +34,54 @@
         "deployLink": ""
     },
     "aboutme": {
-      "workExperiences": {
-        "experienceId": 1,
-        "title": "",
-        "description": "",
-        "period": "",
-        "enterprise": ""
-      },
+      "abouttitle": "About me",
+      "exptitle": "Experience",
+      "workExperiences": [
+        {
+          "experienceId": 1,
+          "title": "Backend Developer",
+          "description": "Backend Development for different projects with MERN stack",
+          "period": "February 2023 - July 2023",
+          "enterprise": "No Country"
+        },
+        {
+          "experienceId": 2,
+          "title": "A",
+          "description": "A",
+          "period": "A",
+          "enterprise": "A"
+        },
+        {
+          "experienceId": 3,
+          "title": "A",
+          "description": "A",
+          "period": "A",
+          "enterprise": "A"
+        },
+        {
+          "experienceId": 4,
+          "title": "A",
+          "description": "A",
+          "period": "A",
+          "enterprise": "A"
+        },
+        {
+          "experienceId": 5,
+          "title": "A",
+          "description": "A",
+          "period": "A",
+          "enterprise": "A"
+        }
+      ],
+      "studiestitle": "Formation",
       "studies": {
         "studyId": 1,
-        "title": "",
-        "period": "",
-        "enterprise": "",
-        "description": ""
+        "title": "Multilingual tourist administrator and tourism degree",
+        "period": "2014-2018",
+        "enterprise": "University of Playa Ancha, Chile",
+        "description": "During my years in college, I learned how to speak fluently in English and French, to administrate any type of business (accountability, human resources, marketing). Also, I was elected as generation representative and president of my career, so I improved a lot my soft skills."
       },
-      "myDescription": ""
+      "myDescription": "I'm a fullstack developer with knowledge in different areas like design, administration, and languages."
     },
     "contact":{
       "yourmail": "",
