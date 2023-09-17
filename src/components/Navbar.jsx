@@ -12,6 +12,8 @@ import {
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 import {Fade} from "@mui/material";
+import { Link } from "react-router-dom";
+
 
 function Navbar() {
   const { language, setLanguage, languageData } = useLanguage();
@@ -55,25 +57,41 @@ function Navbar() {
             onClose={handleMenuClose}
             TransitionComponent={Fade}
           >
-            <MenuItem onClick={handleMenuClose}>
-              {languageData.navbar.about}
-            </MenuItem>
-            <MenuItem onClick={handleMenuClose}>
-              {languageData.navbar.projects}
-            </MenuItem>
-            <MenuItem onClick={handleMenuClose}>
-              {languageData.navbar.blog}
-            </MenuItem>
+          <Link to="/about" style={{ textDecoration: "none", color: "inherit" }}>
+  <MenuItem onClick={handleMenuClose}>
+    {languageData.navbar.about}
+  </MenuItem>
+</Link>
+<Link to="/projects" style={{ textDecoration: "none", color: "inherit" }}>
+  <MenuItem onClick={handleMenuClose}>
+    {languageData.navbar.projects}
+  </MenuItem>
+</Link>
+<Link to="/blog" style={{ textDecoration: "none", color: "inherit" }}>
+  <MenuItem onClick={handleMenuClose}>
+    {languageData.navbar.blog}
+  </MenuItem>
+</Link>
+
           </Menu>
         </Hidden>
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          <Link to ="/" style={{ textDecoration: "none", color: "inherit" }}>
           {languageData.navbar.home}
+          </Link>
         </Typography>
         <Hidden smDown>
-          <Button color="inherit">{languageData.navbar.about}</Button>
-          <Button color="inherit">{languageData.navbar.projects}</Button>
-          <Button color="inherit">{languageData.navbar.blog}</Button>
-        </Hidden>
+  <Link to="/about" style={{ textDecoration: "none", color: "inherit" }}>
+    <Button color="inherit">{languageData.navbar.about}</Button>
+  </Link>
+  <Link to="/projects" style={{ textDecoration: "none", color: "inherit" }}>
+    <Button color="inherit">{languageData.navbar.projects}</Button>
+  </Link>
+  <Link to="/blog" style={{ textDecoration: "none", color: "inherit" }}>
+    <Button color="inherit">{languageData.navbar.blog}</Button>
+  </Link>
+</Hidden>
+
         <Button color="inherit" onClick={toggleLanguage}>
           {language === "en" ? "EN" : "ES"}
         </Button>

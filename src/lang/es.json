@@ -16,23 +16,113 @@
       "downloadCv": "Descargar CV",
       "visitLn": "Visitar LinkedIn"
     },
-    "projects": {
-      "projectId": 1,
-      "title": "",
-      "technologies": "",
-      "description": "",
-      "repoLink": "",
-      "deployLink": ""
-    },
-    "groupProjects": {
+    "myProjects": {
+      "viewRepo": "Repositorio",
+      "viewDeploy": "Despliegue",
+    "projects": [
+      {
+        "projectId": 1,
+        "title": "Landing page e-commerce",
+        "technologies": "HTML, CSS",
+        "description": "Landing page básica para tienda de ropa.",
+        "repoLink": "https://github.com/martaalcazarr/tiendaropa",
+        "deployLink": "",
+        "imageUrl": ""
+      },
+      {
+        "projectId": 2,
+        "title": "Landing page freelance",
+        "technologies": "HTML, CSS",
+        "description": "Landing page básica para freelancer.",
+        "repoLink": "https://github.com/martaalcazarr/contacto",
+        "deployLink": "",
+        "imageUrl": ""
+      },
+      {
+        "projectId": 3,
+        "title": "Landing page AudioTech",
+        "technologies": "HTML, CSS",
+        "description": "Landing page básica para tienda de audífonos.",
+        "repoLink": "https://github.com/martaalcazarr/audiotech",
+        "deployLink": "",
+        "imageUrl": ""
+      }, {
+        "projectId": 4,
+        "title": "Carrito de compras",
+        "technologies": "HTML, CSS, JavaScript",
+        "description": "Web app básica con carrito de compras en JS.",
+        "repoLink": "https://github.com/martaalcazarr/carritodecompras",
+        "deployLink": "",
+        "imageUrl": ""
+      },
+      {
+        "projectId": 5,
+        "title": "Cotizador de seguros para automóvil",
+        "technologies": "HTML, CSS, JavaScript",
+        "description": "Cotizador de seguros simple con prototipos de JS.",
+        "repoLink": "https://github.com/martaalcazarr/cotizador-de-seguro",
+        "deployLink": "",
+        "imageUrl": ""
+      },
+      {
+        "projectId": 6,
+        "title": "Calculadora de gastos",
+        "technologies": "HTML, CSS, Bootstrap, JavaScript",
+        "description": "Calculadora de gastos semanales con JS.",
+        "repoLink": "https://github.com/martaalcazarr/calculadoragastos",
+        "deployLink": "",
+        "imageUrl": ""
+      },
+      {
+        "projectId": 7,
+        "title": "Administrador de citas",
+        "technologies": "HTML, CSS, Bootstrap, JavaScript",
+        "description": "Administrador de citas utilizando JS y IndexedDB.",
+        "repoLink": "https://github.com/martaalcazarr/administradorcitasindexeddb",
+        "deployLink": "",
+        "imageUrl": ""
+      },
+      {
+        "projectId": 8,
+        "title": "CRM con IndexedDB",
+        "technologies": "HTML, CSS, Tailwind, JavaScript",
+        "description": "CRM utilizando JS, IndexedDB y SweetAlert.",
+        "repoLink": "https://github.com/martaalcazarr/crmindexeddb",
+        "deployLink": "",
+        "imageUrl": ""
+      },
+      {
+        "projectId": 9,
+        "title": "Consultor de clima",
+        "technologies": "HTML, CSS, Tailwind, JavaScript",
+        "description": "Aplicación web para consultar el clima a una API externa.",
+        "repoLink": "https://github.com/martaalcazarr/apiclima",
+        "deployLink": "",
+        "imageUrl": ""
+      },
+      {
+        "projectId": 10,
+        "title": "",
+        "technologies": "",
+        "description": "",
+        "repoLink": "",
+        "deployLink": "",
+        "imageUrl": ""
+      }
+    ],
+    "groupProjects": [
+      {
         "projectId": 1,
         "myRole": "",
         "title": "",
         "technologies": "",
         "description": "",
         "repoLink": "",
-        "deployLink": ""
-      },
+        "deployLink": "",
+        "imageUrl": ""
+      }
+    ]
+  },
       "aboutme": {
         "abouttitle": "Sobre mí",
         "exptitle": "Experiencia",
