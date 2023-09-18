@@ -46,7 +46,8 @@
         "repoLink": "https://github.com/martaalcazarr/audiotech",
         "deployLink": "",
         "imageUrl": ""
-      }, {
+      }, 
+      {
         "projectId": 4,
         "title": "Carrito de compras",
         "technologies": "HTML, CSS, JavaScript",
