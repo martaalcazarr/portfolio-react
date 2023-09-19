@@ -1,9 +1,24 @@
-
-import { Container, Typography, Grid, Paper, Button, Link } from '@mui/material';
-import { useLanguage } from '../context/languageContext';
+import Chip from "@mui/material/Chip";
+import { Container, Typography, Grid, Paper, Button, Link } from "@mui/material";
+import { useLanguage } from "../context/languageContext";
+import {
+  Html as HtmlIcon,
+  Css as CssIcon,
+  Javascript as JavascriptIcon,
+ 
+} from "@mui/icons-material";
 
 const Projects = () => {
   const { languageData } = useLanguage();
+
+  // Define un objeto que mapea las tecnologías a sus respectivos iconos
+  const techIcons = {
+    HTML: <HtmlIcon />,
+    CSS: <CssIcon />,
+    JavaScript: <JavascriptIcon />,
+
+    // Agrega otros iconos según tus necesidades
+  };
 
   return (
     <Container>
@@ -15,12 +30,34 @@ const Projects = () => {
           <Grid item xs={12} md={6} key={project.projectId}>
             <Paper elevation={3} sx={{ padding: 2 }}>
               <Typography variant="h6">{project.title}</Typography>
-              <Typography variant="subtitle1">{project.technologies}</Typography>
+              {/* Mapea las tecnologías a Chips con los iconos correspondientes */}
+              <div>
+                {project.technologies.split(", ").map((tech) => (
+                  <Chip
+                    key={tech}
+                    variant="outlined"
+                    size="small"
+                    icon={techIcons[tech]}
+                    label={tech}
+                    style={{ marginRight: 8, marginBottom: 8 }}
+                  />
+                ))}
+              </div>
               <Typography>{project.description}</Typography>
-              <Button component={Link} href={project.repoLink} target="_blank" rel="noopener noreferrer">
+              <Button
+                component={Link}
+                href={project.repoLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {languageData.myProjects.viewRepo}
               </Button>
-              <Button component={Link} href={project.deployLink} target="_blank" rel="noopener noreferrer">
+              <Button
+                component={Link}
+                href={project.deployLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {languageData.myProjects.viewDeploy}
               </Button>
             </Paper>
@@ -36,12 +73,34 @@ const Projects = () => {
           <Grid item xs={12} md={6} key={groupProject.projectId}>
             <Paper elevation={3} sx={{ padding: 2 }}>
               <Typography variant="h6">{groupProject.title}</Typography>
-              <Typography variant="subtitle1">{groupProject.technologies}</Typography>
+              {/* Mapea las tecnologías a Chips con los iconos correspondientes */}
+              <div>
+                {groupProject.technologies.split(", ").map((tech) => (
+                  <Chip
+                    key={tech}
+                    variant="outlined"
+                    size="small"
+                    icon={techIcons[tech]}
+                    label={tech}
+                    style={{ marginRight: 8, marginBottom: 8 }}
+                  />
+                ))}
+              </div>
               <Typography>{groupProject.description}</Typography>
-              <Button component={Link} href={groupProject.repoLink} target="_blank" rel="noopener noreferrer">
+              <Button
+                component={Link}
+                href={groupProject.repoLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {languageData.myProjects.viewRepo}
               </Button>
-              <Button component={Link} href={groupProject.deployLink} target="_blank" rel="noopener noreferrer">
+              <Button
+                component={Link}
+                href={groupProject.deployLink}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 {languageData.myProjects.viewDeploy}
               </Button>
             </Paper>
@@ -50,6 +109,6 @@ const Projects = () => {
       </Grid>
     </Container>
   );
-}
+};
 
 export default Projects;
