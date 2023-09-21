@@ -7,17 +7,22 @@ import {
   Javascript as JavascriptIcon,
  
 } from "@mui/icons-material";
+import {FaReact , FaBootstrap} from "react-icons/fa"
+import {SiTailwindcss} from "react-icons/si";
 
 const Projects = () => {
   const { languageData } = useLanguage();
 
-  // Define un objeto que mapea las tecnologías a sus respectivos iconos
+  
   const techIcons = {
     HTML: <HtmlIcon />,
     CSS: <CssIcon />,
     JavaScript: <JavascriptIcon />,
+    Tailwind: <SiTailwindcss />,
+    Bootstrap: <FaBootstrap />,
+    React: <FaReact />
 
-    // Agrega otros iconos según tus necesidades
+
   };
 
   return (
