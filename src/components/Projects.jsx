@@ -1,24 +1,10 @@
 import Chip from "@mui/material/Chip";
 import { Container, Typography, Grid, Paper, Button, Link } from "@mui/material";
 import { useLanguage } from "../context/languageContext";
-import {
-  Html as HtmlIcon,
-  Css as CssIcon,
-  Javascript as JavascriptIcon,
- 
-} from "@mui/icons-material";
-
+import techIcons from "./TechIcons";
 const Projects = () => {
   const { languageData } = useLanguage();
 
-  // Define un objeto que mapea las tecnologías a sus respectivos iconos
-  const techIcons = {
-    HTML: <HtmlIcon />,
-    CSS: <CssIcon />,
-    JavaScript: <JavascriptIcon />,
-
-    // Agrega otros iconos según tus necesidades
-  };
 
   return (
     <Container>
@@ -86,6 +72,7 @@ const Projects = () => {
                   />
                 ))}
               </div>
+              <Typography><span style={{ fontWeight: 'bold' }}>{languageData.myProjects.myRole}</span>  {groupProject.myRole}</Typography>
               <Typography>{groupProject.description}</Typography>
               <Button
                 component={Link}
