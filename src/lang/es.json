@@ -19,6 +19,7 @@
     "myProjects": {
       "viewRepo": "Repositorio",
       "viewDeploy": "Despliegue",
+      "myRole": "Rol: ",
     "projects": [
       {
         "projectId": 1,
@@ -114,11 +115,11 @@
     "groupProjects": [
       {
         "projectId": 1,
-        "myRole": "",
-        "title": "",
-        "technologies": "",
-        "description": "",
-        "repoLink": "",
+        "myRole": "Desarrollador Backend",
+        "title": "App.ointment",
+        "technologies": "JavaScript, React, Express, MongoDB, Node",
+        "description": "Aplicación web para que usuarios puedan tomar citas con distintos profesionales.",
+        "repoLink": "https://github.com/No-Country/C9-G21",
         "deployLink": "",
         "imageUrl": ""
       }

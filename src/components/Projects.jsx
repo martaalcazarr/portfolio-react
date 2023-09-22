@@ -2,27 +2,57 @@ import Chip from "@mui/material/Chip";
 import { Container, Typography, Grid, Paper, Button, Link } from "@mui/material";
 import { useLanguage } from "../context/languageContext";
 import {
-  Html as HtmlIcon,
-  Css as CssIcon,
-  Javascript as JavascriptIcon,
- 
-} from "@mui/icons-material";
-import {FaReact , FaBootstrap} from "react-icons/fa"
-import {SiTailwindcss} from "react-icons/si";
+  SiHtml5,
+  SiCss3,
+  SiJavascript,
+  SiTailwindcss,
+  SiBootstrap, 
+  SiReact,
+  SiExpress, 
+  SiMongodb,
+  SiNodedotjs,
+  SiPug,
+  SiRuby,
+  SiRubyonrails,
+  SiPostgresql,
+  SiNextdotjs,
+  SiPrisma,
+  SiVite,
+  SiMui,
+  SiRemix,
+  SiStrapi,
+  SiSass,
+  SiGulp,
+  SiVuedotjs
+} from "react-icons/si";
 
 const Projects = () => {
   const { languageData } = useLanguage();
 
   
   const techIcons = {
-    HTML: <HtmlIcon />,
-    CSS: <CssIcon />,
-    JavaScript: <JavascriptIcon />,
+    HTML: <SiHtml5 />,
+    CSS: <SiCss3 />,
+    JavaScript: <SiJavascript />,
     Tailwind: <SiTailwindcss />,
-    Bootstrap: <FaBootstrap />,
-    React: <FaReact />
-
-
+    Bootstrap: <SiBootstrap />,
+    React: <SiReact />,
+    Express: <SiExpress />,
+    MongoDB: <SiMongodb />,
+    Node: <SiNodedotjs />,
+    Pug: <SiPug />,
+    Ruby: <SiRuby />,
+    RoR: <SiRubyonrails />,
+    PostgreSQL: <SiPostgresql />,
+    Next: <SiNextdotjs />,
+    Prisma: <SiPrisma />,
+    Vite: <SiVite />,
+    Mui: <SiMui />,
+    Remix: <SiRemix />,
+    Strapi: <SiStrapi />,
+    SASS: <SiSass />,
+    Gulp: <SiGulp />,
+    Vue: <SiVuedotjs />
   };
 
   return (
@@ -91,6 +121,7 @@ const Projects = () => {
                   />
                 ))}
               </div>
+              <Typography><span style={{ fontWeight: 'bold' }}>{languageData.myProjects.myRole}</span>  {groupProject.myRole}</Typography>
               <Typography>{groupProject.description}</Typography>
               <Button
                 component={Link}
